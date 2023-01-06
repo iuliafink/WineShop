@@ -1,0 +1,49 @@
+.wine {
+  /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    /* padding-bottom: 1rem; */
+     border-bottom: 1px solid #ccc; 
+     height: 320px;
+  }
+  
+  .wine h2 {
+    color:#000000;
+    margin: 0 0 1rem 0;
+    width: 320px;
+  }
+  
+  .color {
+    font-style: italic;
+  }
+  .wine button {
+      align-self: flex-end;
+      margin-left: auto;
+      position: relative;
+      top: -0.3rem;
+      font: inherit;
+      cursor: pointer;
+      background-color: rgb(156 112 47);
+      border: 1px solid rgb(89 71 18); 
+      color: white;
+      padding: 0.25rem;
+      border-radius: 20px;
+      font-weight: bold;
+  }
+
+  .price {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+  }
+ 
+div {
+  margin: 0.4rem 0rem;
+}
+
+.img {
+  height: 400px;
+  margin: 1rem 3rem 2rem;
+}
